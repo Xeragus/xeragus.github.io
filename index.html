@@ -23,9 +23,16 @@
 
     <main>
         <section class="hero">
+            <div class="hero-shapes" aria-hidden="true">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
             <div class="container">
                 <h1>Building software that matters</h1>
                 <p class="hero-subtitle">We create thoughtful digital products that help people live better lives.</p>
+                <p class="hero-values">Thoughtful design <span class="separator">•</span> Secure engineering <span class="separator">•</span> Human-centered</p>
             </div>
         </section>
 
@@ -33,11 +40,13 @@
             <div class="container">
                 <h2>Our Projects</h2>
                 <div class="project-card">
-                    <div class="project-badge">Featured</div>
-                    <div class="project-content">
+                    <div class="project-header">
+                        <div class="project-badge">Featured</div>
                         <img src="logo.webp" alt="Visualife logo" class="project-logo" width="64" height="64">
                         <h3>Visualife</h3>
                         <p class="project-tagline">Your Life, Visualized.</p>
+                    </div>
+                    <div class="project-details">
                         <p class="project-description">
                             A comprehensive personal life management platform that helps you track, understand,
                             and improve every aspect of your daily life. Health metrics, nutrition, activities,
@@ -84,6 +93,58 @@
                             <span>Available on iOS, Android & Web</span>
                         </div>
                         <a href="https://visualife.ai" target="_blank" rel="noopener" class="project-link">Visit visualife.ai &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="humanity">
+            <div class="container">
+                <h2>How We Build for Humanity</h2>
+                <div class="humanity-grid">
+                    <div class="humanity-column">
+                        <div class="humanity-icon">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="40" r="28" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+                                <rect x="28" y="30" width="24" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M32 36h16M32 40h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M20 52c4-8 12-14 20-14s16 6 20 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                                <circle cx="26" cy="58" r="3" fill="currentColor" opacity="0.3"/>
+                                <circle cx="54" cy="58" r="3" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3>Tools that help, not distract</h3>
+                        <p>Software should enhance your life, not consume it. We design focused experiences that respect your time and attention.</p>
+                    </div>
+                    <div class="humanity-column">
+                        <div class="humanity-icon">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40 16L56 26v20L40 56 24 46V26l16-10z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="40" cy="36" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M40 42v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M28 60c2-4 6-6 12-6s10 2 12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+                                <circle cx="22" cy="36" r="2" fill="currentColor" opacity="0.3"/>
+                                <circle cx="58" cy="36" r="2" fill="currentColor" opacity="0.3"/>
+                                <circle cx="40" cy="64" r="2" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3>Your data stays yours</h3>
+                        <p>Privacy isn't a feature—it's a foundation. Your personal information stays encrypted and under your control, always.</p>
+                    </div>
+                    <div class="humanity-column">
+                        <div class="humanity-icon">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="40" r="6" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="56" cy="40" r="6" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="40" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="40" cy="56" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M30 40h20M40 30v20" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+                                <path d="M29 35l6-6M45 29l6 6M51 45l-6 6M35 51l-6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+                                <circle cx="40" cy="40" r="3" fill="currentColor" opacity="0.5"/>
+                            </svg>
+                        </div>
+                        <h3>Built for real life</h3>
+                        <p>We build for how people actually live, not idealized scenarios. Flexible, forgiving, and ready for the unexpected.</p>
                     </div>
                 </div>
             </div>
